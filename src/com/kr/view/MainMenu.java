@@ -8,8 +8,7 @@ public class MainMenu {
     private static final String[] menuItems = {
             "New Game (0)",
             "Settings (1)",
-            "About    (2)",
-            "Exit     (3)"
+            "Exit     (2)"
     };
 
     public void show()
@@ -17,8 +16,7 @@ public class MainMenu {
         System.out.println(" Main Menu:");
         System.out.println("New Game (0)");
         System.out.println("Settings (1)");
-        System.out.println("About    (2)");
-        System.out.println("Exit     (3)");
+        System.out.println("Exit     (2)");
     }
 
 }

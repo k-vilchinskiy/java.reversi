@@ -30,8 +30,10 @@ public class Menu {
                     new PlayersMenu().show();
                     break;
                 case '1':
+                    System.out.println("not implemented");
                     break;
                 case '2':
+                    System.out.println(" Bye bye...");
                     break;
                 default :
                     System.out.println("Wrong input");

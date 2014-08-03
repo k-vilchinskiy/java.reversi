@@ -25,6 +25,7 @@ public class Field {
 
     public boolean set(int x, int y, int player)
     {
+        this.field[x][y] = player;
         return true;
     }
 

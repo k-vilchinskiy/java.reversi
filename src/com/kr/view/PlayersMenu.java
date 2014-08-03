@@ -11,6 +11,8 @@ import java.util.Scanner;
 public class PlayersMenu {
 
     public void show() {
+
+        System.out.println("-=-=-=-=-=-=-=-=-=-=");
         //Scanner inp = new Scanner(System.in);
         System.out.println(" Input players:");
         System.out.println(" player1 (black) name: black");
@@ -21,8 +23,8 @@ public class PlayersMenu {
         String player2Name = "white";
 
         Player[] players = {
-                new Player(player1Name),
-                new Player(player2Name)
+                new Player(1, player1Name),
+                new Player(2, player2Name)
         };
 
         Game game = new Game();

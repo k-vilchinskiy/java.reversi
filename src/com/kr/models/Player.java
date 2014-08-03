@@ -7,11 +7,15 @@ public class Player {
 
     private int index; //player index 1 (black), 2 (white)
 
+    private int score;
+
     private String name;
 
-    public Player(String name)
+    public Player(int index, String name)
     {
+        this.index = index;
         this.name = name;
+        this.score = 0;
     }
 
     public String getName()
@@ -24,4 +28,13 @@ public class Player {
         return this.index;
     }
 
+    public void setScore(int score)
+    {
+        this.score = score;
+    }
+
+    public int getScore()
+    {
+        return this.score;
+    }
 }
